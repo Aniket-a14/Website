@@ -1,0 +1,61 @@
+/* General Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Ensure all text is readable */
+  body.dark-mode p,
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode h5,
+  body.dark-mode h6,
+  body.dark-mode a {
+    color: #ffffff;
+  }
+  
+  /* Links in dark mode */
+  body.dark-mode a {
+    color: #b3b3b3;  /* Slightly lighter for links */
+  }
+  
+  body.dark-mode a:hover {
+    color: #ffffff;
+  }
+  
+  /* Button text colors */
+  body.dark-mode .btn-color-1,
+  body.dark-mode .btn-color-2 {
+    background-color: #333333;
+    color: #ffffff;  /* Ensure button text is visible */
+    border: #555555 0.1rem solid;
+  }
+  
+  body.dark-mode .btn-color-1:hover, 
+  body.dark-mode .btn-color-2:hover {
+    background-color: #555555;
+    color: #ffffff;
+  }
+  
+  /* Section background colors */
+  body.dark-mode nav, 
+  body.dark-mode .details-container, 
+  body.dark-mode footer {
+    background-color: #1e1e1e;  /* Darker background for sections */
+    color: #ffffff;  /* Light text for contrast */
+  }
+  
+  /* Icon color adjustment */
+  body.dark-mode .icon {
+    filter: invert(100%); /* Invert icon colors to make them visible in dark mode */
+  }
+  
+  /* About section specific adjustments */
+  body.dark-mode #about {
+    background-color: #181818;
+    color: #ffffff;
+  }
+
+  
